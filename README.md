@@ -26,69 +26,7 @@ This is real commercial data, it has been anonymised, and references to the comp
 
 ## Data Structure
 
-The Brazilian E-Commerce dataset from Kaggle consists of several CSV files that cover various aspects of the e-commerce system in Brazil. Here is an explanation of the main features in this dataset:
-
-1. **Olist_Customers_Dataset.csv:**
-   - `customer_id`: Unique customer ID.
-   - `customer_unique_id`: Unique and anonymous ID for each customer.
-   - `customer_zip_code_prefix`: Customer's zip code prefix.
-   - `customer_city`: Customer's city.
-   - `customer_state`: Customer's state.
-
-2. **Olist_Geolocation_Dataset.csv:**
-   - `geolocation_zip_code_prefix`: Zip code prefix.
-   - `geolocation_lat`: Latitude of the geographic location.
-   - `geolocation_lng`: Longitude of the geographic location.
-   - `geolocation_city`: City.
-   - `geolocation_state`: State.
-
-3. **Olist_Order_Items_Dataset.csv:**
-   - `order_id`: Unique order ID.
-   - `order_item_id`: Unique item ID within an order.
-   - `product_id`: Unique product ID.
-   - `seller_id`: Unique seller ID.
-   - `shipping_limit_date`: Shipping deadline.
-   - `price`: Product price.
-   - `freight_value`: Shipping cost.
-
-4. **Olist_Order_Payments_Dataset.csv:**
-   - `order_id`: Unique order ID.
-   - `payment_sequential`: Payment sequence in one order.
-   - `payment_type`: Payment method.
-   - `payment_installments`: Number of payment installments.
-   - `payment_value`: Payment value.
-
-5. **Olist_Orders_Dataset.csv:**
-   - `order_id`: Unique order ID.
-   - `customer_id`: Unique customer ID.
-   - `order_status`: Order status (processing, shipped, delivered, etc.).
-   - `order_purchase_timestamp`: Order purchase time.
-   - `order_approved_at`: Time of order approval.
-   - `order_delivered_carrier_date`: Courier delivery time.
-   - `order_delivered_customer_date`: Time the order was received by the customer.
-   - `order_estimated_delivery_date`: Estimated delivery time.
-
-6. **Olist_Products_Dataset.csv:**
-   - `product_id`: Unique product ID.
-   - `product_category_name`: Product category name.
-   - `product_name_length`: Length of the product name.
-   - `product_description_length`: Length of the product description.
-   - `product_photos_qty`: Number of product photos.
-   - `product_weight_g`: Product weight in grams.
-   - `product_length_cm`: Product length in centimeters.
-   - `product_height_cm`: Product height in centimeters.
-   - `product_width_cm`: Product width in centimeters.
-
-7. **Olist_Sellers_Dataset.csv:**
-   - `seller_id`: Unique seller ID.
-   - `seller_zip_code_prefix`: Seller's zip code prefix.
-   - `seller_city`: Seller's city.
-   - `seller_state`: Seller's state.
-
-8. **Product_Category_Name_Translation.csv:**
-   - `product_category_name`: Product category name in Portuguese.
-   - `product_category_name_english`: Translation of the product category name into English.
-
+The Brazilian E-Commerce dataset from Kaggle consists of several CSV files that cover various aspects of the e-commerce system in Brazil. 
 This dataset provides broad insights into e-commerce transactions, customers, products, and sellers in Brazil. By combining data from various tables, comprehensive analysis can be conducted to understand trends and patterns in e-commerce activities.
 
 ## Merging Dataframes
