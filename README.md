@@ -2,6 +2,7 @@
 
 **Final Project Data Analysis**
 
+for fast access, click : https://projek-dicoding-7f7ip7kd5zecqztp35f7wk.streamlit.app/
 ## Setup Environment
 
 ```
